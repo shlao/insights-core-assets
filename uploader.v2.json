@@ -1745,6 +1745,11 @@
             "symbolic_name": "dmesg_log"
         },
         {
+            "file": "/etc/dnf/dnf.conf",
+            "pattern": [],
+            "symbolic_name": "dnf_conf"
+        },
+        {
             "file": "/etc/dnf/modules.d/.*\\.module",
             "pattern": [],
             "symbolic_name": "dnf_modules"
